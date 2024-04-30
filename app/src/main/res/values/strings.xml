@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Contatos-BA</string>
+    <string name="title">My Contacts</string>
+    <string name="contact_name">Contact\'s name</string>
+    <string name="contact_phone">Contact\'s phone</string>
+    <string name="contact_email">Contact\'s email</string>
+    <string name="contact_birthday">Contact\'s birthday</string>
+    <string name="family">Family</string>
+    <string name="save">SAVE</string>
+</resources>
