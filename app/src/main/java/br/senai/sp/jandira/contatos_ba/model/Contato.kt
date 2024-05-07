@@ -12,7 +12,7 @@ data class Contato(
     @PrimaryKey(autoGenerate = true) var id: Long = 0,
     var nome: String = "",
     var telefone: String = "",
-    @NotNull var email: String = "",
+    var email: String = "",
     @ColumnInfo(name = "data_nascimento") var dataNascimento: String = "",
     @ColumnInfo(name = "is_familia") var isFamilia: Boolean = false
 )

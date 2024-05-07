@@ -27,6 +27,8 @@ abstract class ContatoDb: RoomDatabase() {
                 .allowMainThreadQueries()
                 .fallbackToDestructiveMigration()
                 .build()
+
+            return instancia
         }
     }
 }
