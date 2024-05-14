@@ -12,9 +12,9 @@ class ContatoRepository(context: Context) {
         return  db.salvar(contato)
     }
 
-    fun deletarContatoPeloId(id: Long){
-        return db.deletarContatoPeloId(id)
-    }
+//    fun deletarContatoPeloId(id: Long){
+//        return db.deletarContatoPeloId(id)
+//    }
 
     fun buscarTodosOsContatos(): List<Contato>{
         return db.listarTodosOsContatos()

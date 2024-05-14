@@ -24,6 +24,6 @@ interface ContatoDao {
     @Query("SELECT * FROM tbl_contatos WHERE id = :id")
     fun buscarContatoPeloId(id: Long): Contato
 
-    @Delete
-    fun deletarContatoPeloId(id: Long)
+//    @Delete
+//    fun deletarContatoPeloId(id: Long)
 }

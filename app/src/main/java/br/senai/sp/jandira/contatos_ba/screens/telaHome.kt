@@ -67,7 +67,7 @@ fun TelaHome(controleDeNavegacao: NavHostController?) {
         },
         floatingActionButton = {
             FloatingActionButton(
-                onClick = { controleDeNavegacao?.navigate("home") }
+                onClick = { controleDeNavegacao?.navigate("cadastro") }
             ) {
                 Icon(Icons.Default.Add, contentDescription = "Add")
             }
